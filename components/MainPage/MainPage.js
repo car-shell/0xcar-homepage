@@ -7,7 +7,7 @@ const MainPage = () => {
     const {ToastUI, showToast} = useToast();
     return <>
         <ToastUI />
-        <div className={`${styles.container} ${styles.flex_row}`} style={{columnGap: '8px'}} >
+        <div className={`${styles.container}`} style={{columnGap: '8px'}} >
             {/* <div className={styles.header + ' ' + styles.flex_row}>
                 <img src='cardinal.png' className={styles.img} />
                 
@@ -17,19 +17,20 @@ const MainPage = () => {
                 <div className={styles.triangle}/>
                
             </div> */}
-
+            <div className={`${styles.umask}  ${styles.flex_row}`}>
             <div className={`${styles.flex_column} ${styles.stress}`}>
+                
                 <div className={styles.fontLargeTilte }>
                     <span style={{color: "#D9001B"}}>0x</span>Cardinal
                 </div>
                 <div className={styles.fontBigTitle + ' ' + styles.yellow + ' ' + styles.stress }>
-                    Binance Smart Chain Betting DEX.
+                    BINANCE SMART CHAIN BETTING DEX.
                 </div> 
                 <div className={styles.fontTitle + ' ' + styles.white + ' ' + styles.stress}>
                     The world&apos;s first coin-centric betting DEX.
                 </div> 
                 <div className={styles.fontTitle + ' ' + styles.white}>
-                    Open-source, decentralized，and Community-governed
+                    Open-source, Decentralized，and Community-governed
                 </div> 
                 
                 {/* <div className={styles.fontBigTitle + ' ' + styles.bigStress }>
@@ -59,6 +60,7 @@ const MainPage = () => {
 
             
             {/* <Ranking /> */}
+            </div>
         </div>
     </>
 }

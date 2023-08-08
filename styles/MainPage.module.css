@@ -24,12 +24,22 @@
     /* min-height: 640px;
     min-width: 1200px; */
     color: #fff;
+    
     /* background: transparent; */
     background-image: url('/cardinal02.png');
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
 }
+
+.umask {
+    width: 100%;
+    height: calc( 100% + 2px );
+    background: rgba(32, 33, 34, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
 
 /* .container::before{
     content: ' ';
@@ -110,15 +120,15 @@
 
 
 .fontTitle {
-    font: 650 italic 20px sans;
+    font: 650 italic 30px sans;
 }
 
 .fontBigTitle {
-    font: 650 italic 36px sans;
+    font: 650 italic 48px sans;
 }
 
 .fontLargeTilte {
-    font: 650 italic 100px sans;
+    font: 900 italic 100px montserrat;
 }
 
 .fontNormal {
