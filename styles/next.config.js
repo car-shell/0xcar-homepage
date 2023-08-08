@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   assetPrefix: './',
   images:{
-    unoptimized: true
+    unoptimized: false
   }
 }
 
