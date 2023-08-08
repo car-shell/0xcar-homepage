@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,900');
 
 .flex_row {
     display: flex;
@@ -121,14 +122,17 @@
 
 .fontTitle {
     font: 650 italic 30px sans;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .fontBigTitle {
-    font: 650 italic 48px sans;
+    font: 900 italic 48px sans;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .fontLargeTilte {
-    font: 900 italic 100px montserrat;
+    font: 650 italic 100px sans;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fontNormal {
