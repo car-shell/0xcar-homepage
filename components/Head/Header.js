@@ -14,12 +14,12 @@ const Header = ({showMenu=true}) => {
   const lunchAppButton = (e) => {
     if (e.target.innerText == 'Launch App >') {
       // router.push('/app.html')
-      showToast("Coming soon")
+      // showToast("Coming soon")
+      window.open(`https://devnet.0xcardianl.io/`, "_blank")
       return
     }
   }
 
-  ``
   return (
     <>
       <ToastUI />
