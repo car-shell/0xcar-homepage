@@ -27,14 +27,14 @@ const MainPage = () => {
                     Binance Smart Chain Betting Platform
                 </div> 
                 <div className={styles.fontTitle + ' ' + styles.white + ' ' + styles.stress}>
-                    The world&apos;s first coin-centric betting Platform
+                    The first coin-centric betting Platform
                 </div> 
                 <div className={styles.fontTitle + ' ' + styles.white}>
                     Open-source, Decentralized，and Community-governed
                 </div> 
                 
                 <div className={styles.fontBigTitleNormal + ' ' + styles.bigStress }>
-                    Alpha Test Is live. <span style={{color: "#4aa4e9"}}>Join</span> us! 
+                    Alpha Test is live. <a target="_blank" rel="noreferrer" href="https://devnet.0xcardinal.io/"><span style={{color: "#4aa4e9"}}>Join</span> us</a>!  
                 </div>
 
                 <div className={`${styles.bigStress} ${styles.flex_row} ${styles.buttonRow} `}>

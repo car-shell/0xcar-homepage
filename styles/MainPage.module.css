@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600,900');
 
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('/Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }
+
 .flex_row {
     display: flex;
     flex-direction: row;
@@ -106,6 +115,8 @@
     text-align: center;
 
     cursor: pointer;
+
+    font-family: 'Mona Sans', sans-serif;
 }
 
 /* .pageBackground {
@@ -122,17 +133,17 @@
 
 .fontTitle {
     font: 650 italic 30px sans;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Mona Sans', sans-serif;
 }
 
 .fontBigTitle {
     font: 900 italic 48px sans;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Mona Sans', sans-serif;
 }
 
 .fontBigTitleNormal {
     font: 900 normal 48px sans;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Mona Sans', sans-serif;
 }
 
 .fontLargeTilte {
@@ -231,6 +242,8 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 56px;
+
+    font-family: 'Mona Sans', sans-serif;
 }
 
 /* .button {
