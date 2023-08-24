@@ -34,7 +34,7 @@ const MainPage = () => {
                 </div> 
                 
                 <div className={styles.fontBigTitleNormal + ' ' + styles.bigStress }>
-                    Alpha Test is live. <a target="_blank" rel="noreferrer" href="https://devnet.0xcardinal.io/"><span style={{color: "#4aa4e9"}}>Join</span> us</a>!  
+                    Devnet is live. <a target="_blank" rel="noreferrer" href="https://devnet.0xcardinal.io/"><span style={{color: "#4aa4e9"}}>Join</span> us</a>!  
                 </div>
 
                 <div className={`${styles.bigStress} ${styles.flex_row} ${styles.buttonRow} `}>
