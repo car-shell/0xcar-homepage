@@ -130,6 +130,11 @@
     /* font-family: 'Montserrat', sans-serif; */
 }
 
+.fontBigTitleNormal {
+    font: 900 normal 48px sans;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
 .fontLargeTilte {
     font: 650 italic 100px sans;
     font-family: 'Montserrat', sans-serif;

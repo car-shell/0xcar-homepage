@@ -33,11 +33,11 @@ const MainPage = () => {
                     Open-source, Decentralized，and Community-governed
                 </div> 
                 
-                {/* <div className={styles.fontBigTitle + ' ' + styles.bigStress }>
-                    <span style={{color: "#D9001B"}}>0x</span>Cardinal <span style={{color: "#027DB4"}}>devnet</span> about to go live...
-                </div> 
+                <div className={styles.fontBigTitleNormal + ' ' + styles.bigStress }>
+                    Alpha Test Is live. <span style={{color: "#4aa4e9"}}>Join</span> us! 
+                </div>
 
-                <div className={`${styles.flex_row} ${styles.buttonRow} ${styles.topStress}`}>
+                <div className={`${styles.bigStress} ${styles.flex_row} ${styles.buttonRow} `}>
                     <div className={styles.button} onClick={()=>showToast("Coming soon")}>
                             Why 0xCardinal?
                     </div>
@@ -50,7 +50,7 @@ const MainPage = () => {
                     <div className={styles.button} onClick={()=>{showToast("Coming soon")}}>
                             FAQ
                     </div>
-                </div> */}
+                </div> 
             </div> 
 
             {/* <Image width='500' height='500' alt='0xcardinal image' src='/cardinal02.png' /> */}
