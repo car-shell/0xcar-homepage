@@ -14,8 +14,8 @@ const Header = ({showMenu=true}) => {
   const lunchAppButton = (e) => {
     if (e.target.innerText == 'Launch App >') {
       // router.push('/app.html')
-      // showToast("Coming soon")
-      window.open(`https://testnet.0xcardinal.io/`, "_blank")
+      showToast("Coming soon")
+      // window.open(`https://testnet.0xcardinal.io/`, "_blank")
       return
     }
   }
