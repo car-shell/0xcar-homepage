@@ -46,7 +46,7 @@ const MainPage = () => {
                             Tokenomics
                     </div>
                     <div className={styles.button} onClick={()=>showToast("Coming soon")}>
-                            Rodmap
+                            Roadmap
                     </div>
                     <div className={styles.button} onClick={()=>{showToast("Coming soon")}}>
                             FAQ
