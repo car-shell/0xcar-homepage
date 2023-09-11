@@ -5,6 +5,9 @@ import Image from 'next/image'
 
 const MainPage = () => {
     const {ToastUI, showToast} = useToast();
+    const open = (url) => {
+        
+    }
     return <>
         <ToastUI />
         <div className={`${styles.container}`} style={{columnGap: '8px'}} >
@@ -39,16 +42,16 @@ const MainPage = () => {
                 </div>
 
                 <div className={`${styles.bigStress} ${styles.flex_row} ${styles.buttonRow} `}>
-                    <div className={styles.button} onClick={()=>showToast("Coming soon")}>
+                    <div className={styles.button} onClick={()=>window.open("https://docs.0xcardinal.io/", '_bank')}>
                             Why 0xCardinal?
                     </div>
-                    <div className={styles.button} onClick={()=>showToast("Coming soon")}>
+                    <div className={styles.button} onClick={()=>window.open("https://docs.0xcardinal.io/tokenomics/usdcdnl", '_bank')}>
                             Tokenomics
                     </div>
-                    <div className={styles.button} onClick={()=>showToast("Coming soon")}>
+                    <div className={styles.button} onClick={()=>window.open("https://docs.0xcardinal.io/roadmap", '_bank')}>
                             Roadmap
                     </div>
-                    <div className={styles.button} onClick={()=>{showToast("Coming soon")}}>
+                    <div className={styles.button} onClick={()=>{window.open("https://docs.0xcardinal.io/faqs", '_bank')}}>
                             FAQ
                     </div>
                 </div> 
